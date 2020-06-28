@@ -2,7 +2,7 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-smile"></i>
         </div>
@@ -11,11 +11,6 @@
 
     <!-- Divider -->
     <hr class="sidebar-divider">
-
-    <!-- Heading -->
-    <div class="sidebar-heading">
-        Administrator
-    </div>
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
@@ -31,18 +26,18 @@
     <div class="sidebar-heading">
         Admin Management
     </div>
-    <!-- Nav Item - list admin account -->
+    <!-- Nav Item - list Administrator account -->
     <li class="nav-item">
-        <a class="nav-link" href=/admin-profile">
+        <a class="nav-link" href="/administrator">
             <i class="fas fa-fw fa-user"></i>
-            <span>Admin Profile</span></a>
+            <span>Manage Administrator</span></a>
     </li>
 
-    <!-- Nav Item - list admin account -->
+    <!-- Nav Item - list admin Ormawa account -->
     <li class="nav-item">
-        <a class="nav-link" href="/admin-list">
+        <a class="nav-link" href="/admin-ormawa">
             <i class="fas fa-fw fa-users-cog"></i>
-            <span>List Admin Account</span></a>
+            <span>Manage Admin Ormawa</span></a>
     </li>
 
     <!-- Divider -->
@@ -50,26 +45,14 @@
 
     <!-- Heading -->
     <div class="sidebar-heading">
-        Input Data
+        Report
     </div>
 
-    <!-- Nav Item - Pages Collapse Menu -->
+    <!-- Nav Item - list report absen account -->
     <li class="nav-item">
-        <a class="nav-link" href="" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
-            aria-controls="collapsePages">
-            <i class="fas fa-fw fa-table"></i>
-            <span>Tables</span>
-        </a>
-        <div id="collapsePages" class="collapse hide" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Absensi:</h6>
-                <a class="collapse-item" href="/absen">Absen HIMA/UKM</a>
-                <div class="collapse-divider"></div>
-                <h6 class="collapse-header">Other Input:</h6>
-                <a class="collapse-item" href="">Input Proker</a>
-                <a class="collapse-item" href="">Input Berita</a>
-            </div>
-        </div>
+        <a class="nav-link" href="/report-absen">
+            <i class="fas fa-fw fa-file"></i>
+            <span>Manage Report Absen</span></a>
     </li>
 
     <!-- Divider -->
